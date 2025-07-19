@@ -42,6 +42,7 @@ youtube-backend/
 yaml
 Copy
 Edit
+
 📡 API Endpoints
 Auth Routes
 POST /api/auth/register – Register new user
