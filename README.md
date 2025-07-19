@@ -42,3 +42,44 @@ youtube-backend/
 yaml
 Copy
 Edit
+📡 API Endpoints
+Auth Routes
+POST /api/auth/register – Register new user
+
+POST /api/auth/login – Login user
+
+Video Routes
+POST /api/videos – Upload a video
+
+GET /api/videos – Fetch all videos
+
+GET /api/videos/:id – Fetch single video
+
+PUT /api/videos/:id – Update video
+
+DELETE /api/videos/:id – Delete video
+
+Comments
+POST /api/comments/:videoId – Add comment
+
+GET /api/comments/:videoId – Fetch all comments for a video
+
+Likes
+POST /api/videos/like/:id – Like/Unlike a video
+
+🧪 Testing
+Use Postman or Thunder Client to test the APIs.
+You can import the collection available in docs/postman_collection.json.
+
+🤝 Contributing
+Fork the project
+
+Create a feature branch (git checkout -b feature-name)
+
+Commit your changes (git commit -m 'Added new feature')
+
+Push to your branch (git push origin feature-name)
+
+Open a Pull Request
+
+
